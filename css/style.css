@@ -1,0 +1,18 @@
+#test {
+    display: flex;
+    height: 35vh;
+    width: 30vw;
+    margin: 30vh auto auto 35vw;
+    background: rgb(170, 255, 248);
+    color: rgb(255, 51, 68);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+#test .dot {
+    color: rgb(170, 255, 248);
+}
+#test .dun {
+    color: rgb(255, 51, 68);
+}
