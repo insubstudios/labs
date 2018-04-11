@@ -14,4 +14,3 @@ The idea is to give ea. experiment it's own directory, to give it a "clean room"
 
 --  
 [labs.insubstudios.com](http://labs.insubstudios.com)
-{a;sldfk]asdf[asdf\*
