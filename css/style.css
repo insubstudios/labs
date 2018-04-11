@@ -1,18 +1,40 @@
+html, body {
+    background-color: #fefefe;
+    letter-spacing: .13em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
+
 #test {
     display: flex;
     height: 35vh;
     width: 30vw;
     margin: 30vh auto auto 35vw;
-    background: rgb(170, 255, 248);
-    color: rgb(255, 51, 68);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
+    background: rgb(170, 255, 248);
+    color: rgb(255, 51, 68);
+    font-weight: bold;
 }
 
-#test .dot {
+#ellipsis .dot {
     color: rgb(170, 255, 248);
 }
-#test .dun {
+#ellipsis .dun {
     color: rgb(255, 51, 68);
+}
+
+#repo {
+    display: flex;
+    width: 30vw;
+    margin: 1em auto auto 35vw;
+    justify-content: right; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+#repo, #repo a {
+    color: rgb(137, 219, 212)
 }
