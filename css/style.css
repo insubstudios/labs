@@ -1,25 +1,25 @@
 html, body {
 	height: 100%;
 	width: 100%;
-    margin: 0;
+	margin: 0;
 	padding: 0;}
 
 body {
 	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	align-content: center;
+		flex-flow: column;
+		justify-content: center;
+		align-content: center;
+	
 	width: 65vh;
-	min-width: 320px;
-	max-width: 90%;
+		min-width: 320px;
+		max-width: 90%;
 	margin: auto;
-
-    background-color: #fefefe;
-    
-    letter-spacing: .13em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	background-color: #fefefe;
+	color: #333;
+	letter-spacing: .13em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
@@ -27,16 +27,16 @@ a:hover { text-decoration: underline; }
 a:active { text-decoration: underline; }
 
 #test {
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
-    height: 35vh;
-    min-height: 175px;
-    width: 100%;
-    
-    background: rgb(170, 255, 248);
-    color: rgb(255, 51, 68);
-    font-weight: bold;
+	display: flex;
+		justify-content: center; /* align horizontal */
+		align-items: center; /* align vertical */
+	height: 35vh;
+	min-height: 175px;
+	width: 100%;
+	
+	background: rgb(170, 255, 248);
+	color: rgb(255, 51, 68);
+	font-weight: bold;
 }
 @media only screen and (max-height: 700px) {
 	#test {
@@ -54,18 +54,11 @@ a:active { text-decoration: underline; }
 	}
 }
 
-#ellipsis .dot {
-    color: rgb(170, 255, 248);
-}
-#ellipsis .dun {
-    color: rgb(255, 51, 68);
-}
-
 #repo {
-    width: 100%;
-    margin-top: 1em;
-    text-align: right;
+	width: 100%;
+	margin-top: 1em;
+	text-align: right;
 }
 #repo, #repo a {
-    color: rgb(137, 219, 212)
+	color: rgb(137, 219, 212);
 }
